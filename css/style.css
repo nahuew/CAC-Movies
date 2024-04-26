@@ -166,7 +166,7 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 0 10vh 0;
+    padding: 2vh 0 2vh 0;
 }
 
 .form-text {
@@ -203,7 +203,6 @@ hr {
 /*section movies*/
 #trend {
     color: white;
-    margin: 10vh;
     font-size: 3rem;
     font-weight: 700;
 }
@@ -360,36 +359,37 @@ hr {
     /* section search */
     .search-1 {
         padding: 0;
+        font-size: 1rem;
     }
 
     .search-title {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
     .search-2 {
-        padding: 0;
+
     }
 
     /* section trend */
     #trend {
-        font-size: 2rem;
+        font-size: 1.2rem;
     }
 
     .form-text {
-        font-size: 1.2rem;
+        font-size: 1rem;
         height: 6vh;
-        width: 45vh;
+        width: 30vh;
     }
 
     .form-submit {
-        font-size: 1.2rem;
+        font-size: 1rem;
         width: 15vh;
         height: 6vh;
     }
 
     /* section acclaim */
     .title-acclaim {
-        font-size: 2rem;
+        font-size: 1.3rem;
     }
 
     /* footer */
