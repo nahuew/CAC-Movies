@@ -357,7 +357,7 @@ hr {
 #arrow{ 
     position: fixed;
     bottom: 5vh;
-    right: 10vh;
+    right: 5vw;
     cursor: pointer;
     filter: brightness(80%);
 }
@@ -425,6 +425,13 @@ hr {
     .footer-text {
         padding: 2vh;
         font-weight: 700;
+    }
+
+    #arrow{ 
+        position: fixed;
+        bottom: 3vh;
+        right: 2vh;
+        cursor: pointer;
     }
 }
 
