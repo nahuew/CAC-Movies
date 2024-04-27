@@ -59,9 +59,11 @@ body {
     margin-top: 20vh;
     padding-bottom: 10vh;
 }
+
 .main-video h2 {
     font-size: 2.5rem;
 }
+
 iframe {
     max-width: 100vw;
 }
@@ -69,13 +71,19 @@ iframe {
 .networking {
     display: flex;
     font-size: 2.5rem;
-
+    color: white;
 }
 
 .networking-icon {
-margin-right: 3vw;
-margin-bottom: 2vh;
+    margin-right: 3vw;
+    margin-bottom: 2vh;
 }
+
+.networking-icon a{
+    text-decoration: none;
+    color: white;
+}
+
 .main-info {
     display: flex;
     flex-direction: column;
@@ -101,7 +109,7 @@ margin-bottom: 2vh;
     .mario {
         flex-direction: column;
     }
-    
+
     .img-mario {
         width: 100%;
     }
@@ -110,22 +118,30 @@ margin-bottom: 2vh;
         font-size: 1rem;
         margin: 2vh;
     }
+
     .text-mario h1 {
         font-size: 1.2rem;
         width: 90%;
     }
+
     .text-mario p {
         width: 90%;
         font-size: 1rem;
         align-items: flex-start;
     }
+
     .main-video {
         width: 100%;
         flex-direction: column;
     }
+
     .networking {
         width: 100%;
         font-size: 2rem;
+    }
+
+    .networking-icon{
+        width: 100%;
     }
     .main-info {
         margin: auto;
