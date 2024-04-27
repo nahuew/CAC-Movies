@@ -376,7 +376,8 @@ hr {
     }
 
     /* section principal*/
-    h1 {
+
+    .img-h1 {
         font-size: 2rem;
     }
 
@@ -411,6 +412,10 @@ hr {
     /* section acclaim */
     .title-acclaim {
         font-size: 1.3rem;
+    }
+    
+    .button {
+        margin: 2vh;
     }
     
     /* footer */
