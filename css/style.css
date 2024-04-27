@@ -11,7 +11,12 @@
 .body {
     background-color: #181419;
 }
-
+body::-webkit-scrollbar{
+    background-color: #181419;
+}
+body::-webkit-scrollbar-thumb {
+    background-color: #9F3647;
+}
 /* navbar*/
 .header-container {
     background-color: #9F3647;
@@ -202,6 +207,7 @@ hr {
 
 /*section movies*/
 #trend {
+    padding: 2vh;
     color: white;
     font-size: 3rem;
     font-weight: 700;
@@ -261,8 +267,7 @@ hr {
 
 .button {
     padding: 1vh 1.5vw;
-    margin-left: 3vh;
-    margin-bottom: 10vh;
+    margin: 5vh 3vh 5vh 3vh;
     border-radius: 3px;
     background-color: #9F3647;
     border: 1px solid white;
@@ -278,6 +283,15 @@ hr {
     margin: 0 auto;
     margin-top: 2vh;
     margin-bottom: 10vh;
+}
+
+.acclaim::-webkit-scrollbar{
+    border-radius: 2vh;
+    background-color:  #39363a;
+}
+.acclaim::-webkit-scrollbar-thumb {
+    border-radius: 2vh;
+    background-color: #9F3647;
 }
 
 .title-acclaim {
@@ -366,12 +380,9 @@ hr {
         font-size: 1.2rem;
     }
 
-    .search-2 {
-
-    }
-
     /* section trend */
     #trend {
+        padding-top: 3vh;
         font-size: 1.2rem;
     }
 
@@ -391,7 +402,7 @@ hr {
     .title-acclaim {
         font-size: 1.3rem;
     }
-
+    
     /* footer */
     .footer-main {
         display: flex;

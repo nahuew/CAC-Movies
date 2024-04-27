@@ -15,13 +15,13 @@ body {
     background-image: linear-gradient(to right top, #6d6969a7, #6d6969a7), url(../img/mario-bg.jpg);
     background-size: cover;
     background-position: center;
-    padding-top: 3vh;
+    padding-top: 100vh;
     padding: 1vh;
 }
 
 .mario {
-    width: 60%;
     margin: 10vw auto 5vh auto;
+    width: 60%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,15 +56,19 @@ body {
     justify-content: center;
     align-items: center;
     gap: 6vh;
+    margin-top: 20vh;
+    padding-bottom: 10vh;
 }
-
+.main-video h2 {
+    font-size: 2.5rem;
+}
 iframe {
     max-width: 100vw;
 }
 
 .networking {
     display: flex;
-    font-size: 3rem;
+    font-size: 2.5rem;
 
 }
 
@@ -77,6 +81,7 @@ margin-bottom: 2vh;
     flex-direction: column;
     gap: 40px;
     height: 100%;
+    margin-left: 20vh;
 }
 
 .date {
@@ -85,6 +90,10 @@ margin-bottom: 2vh;
 
 }
 
+.date-2 {
+    font-size: 1.1rem;
+    font-weight: 700;
+}
 
 /* media query */
 
@@ -97,10 +106,19 @@ margin-bottom: 2vh;
         width: 100%;
     }
 
-    .repart-mario {
-        flex-direction: column;
+    .repart-mario h3 {
+        font-size: 1rem;
+        margin: 2vh;
     }
-
+    .text-mario h1 {
+        font-size: 1.2rem;
+        width: 90%;
+    }
+    .text-mario p {
+        width: 90%;
+        font-size: 1rem;
+        align-items: flex-start;
+    }
     .main-video {
         width: 100%;
         flex-direction: column;
@@ -108,5 +126,8 @@ margin-bottom: 2vh;
     .networking {
         width: 100%;
         font-size: 2rem;
+    }
+    .main-info {
+        margin: auto;
     }
 }

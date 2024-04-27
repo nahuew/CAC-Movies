@@ -7,12 +7,12 @@
   <title>CaC-movies</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="../css/style.css">
   <link rel="stylesheet" href="../css/detalle.css">
+  <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
   <script src="https://kit.fontawesome.com/695c424542.js" crossorigin="anonymous"></script>
 </head>
 
@@ -72,11 +72,11 @@
             </div>
           </div>
         </div>
-        </div>
+      </div>
     </section>
-    <section class="main-video">
+    <section class="main-video" data-aos="fade-up">
       <div>
-        <h1>Ver trailer</h1>
+        <h2>Ver trailer</h2>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/RjNcTBXTk4I"
           title="The Super Mario Bros. Movie | Final Trailer" frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -101,15 +101,15 @@
             <i class="fa-solid fa-arrow-up-right-from-square"></i>
           </div>
         </div>
-        <h4>información</h4>
+        <h4 date-2>información</h4>
         <div class="date">
-          <p>Status</p>
+          <p class="date-2">Status</p>
           <p>Realeased</p>
-          <p>Original Language</p>
+          <p class="date-2">Original Language</p>
           <p>English</p>
-          <p>buget</p>
+          <p class="date-2">buget</p>
           <p>100.000.000,00</p>
-          <p>Revenue</p>
+          <p class="date-2">Revenue</p>
           <p>1.347.913.886,00</p>
         </div>
       </div>
@@ -123,6 +123,11 @@
       <a class="footer-text" href="">Ayuda</a>
       <a class="footer-text" id="admin-pelis" href="">Administar Peliculas</a>
     </div>
+    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"></script>
