@@ -33,6 +33,9 @@ body {
     border-radius: 2vh;
 }
 
+.text-mario h1 {
+    font-size: 2rem;
+}
 .text-mario h3 {
     font-size: 1.5rem;
 }
