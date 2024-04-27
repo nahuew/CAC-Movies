@@ -29,8 +29,12 @@ input:not(.checkbox),select {
 
 .condition {
     padding-bottom: 2vh;
+    
 }
 
+label{
+    display: inline;
+}
 .button-register {
     background-color: #9F3647;
     color: #ffffff;
