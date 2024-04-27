@@ -352,6 +352,16 @@ hr {
 
 /* footer */
 
+/* footer arrow */
+
+#arrow{ 
+    position: fixed;
+    bottom: 5vh;
+    right: 10vh;
+    cursor: pointer;
+    filter: brightness(80%);
+}
+
 /* all media */
 
 @media (max-width: 768px) {
