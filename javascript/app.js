@@ -1,4 +1,5 @@
 // conexión a api para traer las peliculas  en populares
+
 const previous = document.getElementById("previous");
 const next = document.getElementById("next");
 const contenedor = document.getElementById("main-movies");
@@ -23,7 +24,7 @@ const cargarPeliculas = async()=>{
 
    try{
 
-    const respuesta = await fetch(`https://api.themoviedb.org/3/movie/popular?api_key=191528030c357419329af1198edbcb24&language=es-MX&page=${pagina}`)
+    const respuesta = await fetch(`https://api.themoviedb.org/3/movie/popular?api_key=f46108cbc0a4fde40e74851db6a704aa&language=es-MX&page=${pagina}`)
     console.log(respuesta);
 
     if(respuesta.status === 200){
