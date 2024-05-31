@@ -59,7 +59,7 @@ body {
     border: 2px solid #ffff;
 }
 
-#inputs::placeholder {
+.form-control::placeholder {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -91,6 +91,13 @@ body {
     margin-top: 2vh;
 }
 
+.warning {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2vh;
+    color: #9F3647;
+}
 /* Media */
 
 @media (max-width: 1200px) {

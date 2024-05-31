@@ -252,8 +252,12 @@ hr {
     left: 50%;
     transform: translateY(-50%) translateX(-50%);
     color: #ffff;
+    width: 90%;
+    
 }
-
+.name-movies h4 {
+    font-size: 1.6rem;
+}
 .main-movies2:hover .name-movies {
     opacity: 1;
 }
