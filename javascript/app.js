@@ -1,3 +1,4 @@
+// conexión a api para traer las peliculas  en populares
 const previous = document.getElementById("previous");
 const next = document.getElementById("next");
 const contenedor = document.getElementById("main-movies");
