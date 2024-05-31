@@ -52,11 +52,13 @@ body {
     border-radius: 4vh;
     margin-top: 5vh;
     padding: 1.7vh;
+    color: aliceblue;
 }
 
 .form-control:hover { /* cambia el color interior de los input de email y contraseña*/
     background-color: #2A2A2A;
     border: 2px solid #ffff;
+    color: aliceblue;
 }
 
 .form-control::placeholder {
