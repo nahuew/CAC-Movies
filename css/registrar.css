@@ -1,7 +1,7 @@
 .main-registro {
     background-color: #2A2A2A;
     width: 30%;
-    padding: 5vw 10vh;
+    padding: 3vw 10vh;
     margin: 0 auto;
     border-radius: 2vh;
 }
@@ -9,6 +9,7 @@
 .registrar-registro {
     color: white;
     font-size: 6vh;
+    padding-bottom: 1vh;
 }
 
 form {
@@ -35,13 +36,14 @@ input:not(.checkbox),select {
 label{
     display: inline;
 }
-.button-register {
-    background-color: #9F3647;
-    color: #ffffff;
-    padding: 3vh;
-    width: 100%;
-    border-radius: .6vh;
-    border: none;
+
+
+.warning-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2vh;
+    color: #9F3647;
 }
 
 @media (max-width: 1200px){
@@ -52,8 +54,8 @@ label{
     }
 
     .main-registro {
-        width: 90%;
-        padding-bottom: 10vh;
+        width: 50%;
+        padding-bottom: 7vh;
         display: flex;
         justify-content: center;
         align-items: center;
