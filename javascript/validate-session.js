@@ -1,4 +1,4 @@
-// validación de el for mulario 
+// validación del formulario inicio sesión  
 document.addEventListener('DOMContentLoaded', () => {
   const form = document.getElementById("form");
   const email = document.getElementById("email");
