@@ -1,30 +1,30 @@
 // validación de el for mulario 
+document.addEventListener('DOMContentLoaded', () => {
+  const form = document.getElementById("form");
+  const email = document.getElementById("email");
+  const password = document.getElementById("password");
+  const warning = document.getElementById("warnings");
 
-const email = document.getElementById("email");
-const password = document.getElementById("password");
-const form = document.getElementById("form");
-const warning = document.getElementById("warnings");
+  form.addEventListener('submit', (event) => {
+    event.preventDefault();
 
-form.addEventListener('submit', (mail) => {
-  mail.preventDefault();
+    let warnings = "";
+    const emailV = email.value.trim();
+    const passwordV = password.value.trim();
+    const emailRegex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,4})+$/;
 
-  let warnings = "";
-  let validatemail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,4})+$/;
-  let login = false;
+    if (!emailRegex.test(emailV)) {
+      warnings += `El correo electrónico no es válido.<br>`;
+    }
 
-  if (!validatemail.test(email.value)) {
-    warnings += `El correo no es válido <br>`;
-    login = true;
-  }
+    if (passwordV.length < 8) {
+      warnings += `La contraseña debe tener al menos 8 caracteres.<br>`;
+    }
 
-  if (password.value.length < 8) {
-    warnings += `la contraseña no es válida`;
-    login = true;
-  }
-
-  if (login) {
-    warning.innerHTML = warnings;
-  } else {
-    warning.innerHTML = "sesión iniciada";
-  }
+    if (warnings) {
+      warning.innerHTML = warnings;
+    } else {
+      warning.innerHTML = "¡Sesión iniciada!";
+    }
+  });
 });
